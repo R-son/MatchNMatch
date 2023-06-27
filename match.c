@@ -41,10 +41,3 @@ int	match(char const *s1, char const *s2)
 		return 0;
     return matching(s1, s2);
 }
-
-#include <stdio.h>
-
-int main(int ac, char **av)
-{
-    printf("RETURN VALUE : %i", match(av[1], av[2]));
-}
